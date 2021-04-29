@@ -78,11 +78,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
             cardsWon.push(cardsChosen)
         } else {
             cards[optionOneId].setAttribute('src', './static/img/board.png')
-            cards[optionOneId].setAttribute('src', './static/img/board.png')
+            cards[optionTwoId].setAttribute('src', './static/img/board.png')
             alert('Sorry, try again')
         }
+        //Restart Values
         cardsChosen = []
         cardsChosenId = []
+        
         resultDisplay.textContent = cardsWon.length
         if (cardsWon.length === cardArray.length/2) {
             resultDisplay.textContent = 'Congratularions! You found them all!'
