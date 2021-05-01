@@ -54,11 +54,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
     var cardsChosenId = []
     var cardsWon = []
 
-    //crete your board
+    //create your board
     function createBoard() {
         for (let i = 0; i < cardArray.length; i++ ) {
             var card = document.createElement('img')
+            console.log(card)
             card.setAttribute('src', './static/img/board.png')
+            card.setAttribute('width', '200px')
             card.setAttribute('data-id', i)
             card.addEventListener('click', flipCard)
             grid.appendChild(card)
@@ -75,11 +77,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
             alert('You found a match')
             cards[optionOneId].setAttribute('src', './static/img/white.png')
             cards[optionTwoId].setAttribute('src', './static/img/white.png')
+            cards[optionTwoId].setAttribute('width', '200px')
+            cards[optionTwoId].setAttribute('higth', '100px')
             cardsWon.push(cardsChosen)
         } else {
             cards[optionOneId].setAttribute('src', './static/img/board.png')
             cards[optionTwoId].setAttribute('src', './static/img/board.png')
             alert('Sorry, try again')
+
         }
         //Restart Values
         cardsChosen = []
@@ -93,7 +98,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 
     //flip you card
-    function flipCard() {
+    function flipCard(e) {
+        console.log(e)
         var cardId = this.getAttribute('data-id')
         cardsChosen.push(cardArray[cardId].name)
         cardsChosenId.push(cardId)

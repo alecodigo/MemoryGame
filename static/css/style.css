@@ -7,8 +7,18 @@ body {
     background-color: #0099e5;
 }
 
-.grid {
-    display: flex;
-    flex-wrap: wrap;
-}
+/* .container {
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    width: 500px;
+    height: 500px;
+} */
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: repeat(2, 150px);
+    border: 5px solid black;
+    border-radius: 5px;
+}
