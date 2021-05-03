@@ -4,45 +4,69 @@ document.addEventListener("DOMContentLoaded", function(event) {
     //card options
     const cardArray = [
         {
-            name: 'avestruz',
-            img: 'static/img/avestruz.png'
+            name: 'arbolito',
+            img: 'static/img/arbolito.png'
         },
         {
-            name: 'guacamaya',
-            img: 'static/img/guacamaya.png'
+            name: 'gato',
+            img: 'static/img/gato.png'
         },
         {
-            name: 'Pavo Real',
-            img: 'static/img/pavo_real.png'
+            name: 'lapiz',
+            img: 'static/img/lapiz.png'
         },
         {
-            name: 'tucan',
-            img: 'static/img/tucan.png'
+            name: 'manzana',
+            img: 'static/img/manzana.png'
         },
         {
-            name: 'turpial',
-            img: 'static/img/turpial.png'
+            name: 'ponquecito',
+            img: 'static/img/ponquecito.png'
         },
         {
-            name: 'avestruz',
-            img: 'static/img/avestruz.png'
+            name: 'unicornio',
+            img: 'static/img/unicornio.png'
+        },
+        // {
+        //     name: 'barquilla',
+        //     img: 'static/img/barquilla.png'
+        // },
+        // {
+        //     name: 'pizza',
+        //     img: 'static/img/pizza.png'
+        // },
+        {
+            name: 'arbolito',
+            img: 'static/img/arbolito.png'
         },
         {
-            name: 'guacamaya',
-            img: 'static/img/guacamaya.png'
+            name: 'gato',
+            img: 'static/img/gato.png'
         },
         {
-            name: 'Pavo Real',
-            img: 'static/img/pavo_real.png'
+            name: 'lapiz',
+            img: 'static/img/lapiz.png'
         },
         {
-            name: 'tucan',
-            img: 'static/img/tucan.png'
+            name: 'manzana',
+            img: 'static/img/manzana.png'
         },
         {
-            name: 'turpial',
-            img: 'static/img/turpial.png'
+            name: 'ponquecito',
+            img: 'static/img/ponquecito.png'
         },
+        {
+            name: 'unicornio',
+            img: 'static/img/unicornio.png'
+        },
+        // {
+        //     name: 'barquilla',
+        //     img: 'static/img/barquilla.png'
+        // },
+        // {
+        //     name: 'pizza',
+        //     img: 'static/img/pizza.png'
+        // },
 
     ]
 
@@ -60,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
             var card = document.createElement('img')
             console.log(card)
             card.setAttribute('src', './static/img/board.png')
-            card.setAttribute('width', '200px')
+            // card.setAttribute('width', '200px')
             card.setAttribute('data-id', i)
             card.addEventListener('click', flipCard)
             grid.appendChild(card)
@@ -77,8 +101,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
             alert('You found a match')
             cards[optionOneId].setAttribute('src', './static/img/white.png')
             cards[optionTwoId].setAttribute('src', './static/img/white.png')
-            cards[optionTwoId].setAttribute('width', '200px')
-            cards[optionTwoId].setAttribute('higth', '100px')
+            // cards[optionTwoId].setAttribute('width', '200px')
+            // cards[optionTwoId].setAttribute('higth', '100px')
             cardsWon.push(cardsChosen)
         } else {
             cards[optionOneId].setAttribute('src', './static/img/board.png')
