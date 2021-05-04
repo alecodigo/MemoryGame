@@ -93,12 +93,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     // check for matches
     function checkForMatch() {
+        console.log(this)
         var cards = document.querySelectorAll('img')
         const optionOneId = cardsChosenId[0]
         const optionTwoId = cardsChosenId[1]
         if ((cardsChosen[0] === cardsChosen[1]) && (cardsChosenId[0] != cardsChosenId[1])) {
             cards[optionOneId].setAttribute('src', './static/img/white.png')
+            cards[optionOneId].removeEventListener('click', flipCard)
             cards[optionTwoId].setAttribute('src', './static/img/white.png')
+            cards[optionTwoId].removeEventListener('click', flipCard)
             cardsWon.push(cardsChosen)
         } else {
             cards[optionOneId].setAttribute('src', './static/img/board.png')
