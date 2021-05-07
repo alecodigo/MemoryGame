@@ -27,14 +27,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
             name: 'unicornio',
             img: 'static/img/unicornio.png'
         },
-        // {
-        //     name: 'barquilla',
-        //     img: 'static/img/barquilla.png'
-        // },
-        // {
-        //     name: 'pizza',
-        //     img: 'static/img/pizza.png'
-        // },
+        {
+            name: 'barquilla',
+            img: 'static/img/barquilla.png'
+        },
+        {
+            name: 'pizza',
+            img: 'static/img/pizza.png'
+        },
         {
             name: 'arbolito',
             img: 'static/img/arbolito.png'
@@ -59,14 +59,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
             name: 'unicornio',
             img: 'static/img/unicornio.png'
         },
-        // {
-        //     name: 'barquilla',
-        //     img: 'static/img/barquilla.png'
-        // },
-        // {
-        //     name: 'pizza',
-        //     img: 'static/img/pizza.png'
-        // },
+        {
+            name: 'barquilla',
+            img: 'static/img/barquilla.png'
+        },
+        {
+            name: 'pizza',
+            img: 'static/img/pizza.png'
+        },
 
     ]
 
