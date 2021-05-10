@@ -78,6 +78,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
     var cardsChosenId = []
     var cardsWon = []
 
+    btnRestart = document.querySelector('.btn-restart')
+    
+    btnRestart.addEventListener('click', () => {
+        location.reload()
+    })
+
     //create your board
     function createBoard() {
         for (let i = 0; i < cardArray.length; i++ ) {

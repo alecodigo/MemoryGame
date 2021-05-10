@@ -34,6 +34,24 @@ h3 {
     img {
         width: 46px;        
     }
+    
+    .btn-restart {
+        text-align: center;
+        padding: .6em .8em .8em;
+        margin: 5%;
+        color: white;
+        background-color: #34bf49;
+        border-radius: 5px;
+        box-shadow: inset 0 -.2em rgba(0, 0, 0 .4);
+        border: none;
+        cursor: pointer;
+        outline: 0;
+        transition: .2s;
+    }
+
+    .btn-restart:active {
+        transform: scale(.9);
+    }
 }
 
 
@@ -49,6 +67,24 @@ h3 {
 
         img {
             width: 66px;
+        }
+
+        .btn-restart {
+            text-align: center;
+            padding: .6em .8em .8em;
+            margin: 5%;
+            color: white;
+            background-color: #34bf49;
+            border-radius: 5px;
+            box-shadow: inset 0 -.2em rgba(0, 0, 0 .4);
+            border: none;
+            cursor: pointer;
+            outline: 0;
+            transition: .2s;
+        }
+    
+        .btn-restart:active {
+            transform: scale(.9);
         }
     }
 }
@@ -67,6 +103,24 @@ h3 {
         img {
             width: 66px;
         }
+
+        .btn-restart {
+            text-align: center;
+            padding: .6em .8em .8em;
+            margin: 5%;
+            color: white;
+            background-color: #34bf49;
+            border-radius: 5px;
+            box-shadow: inset 0 -.2em rgba(0, 0, 0 .4);
+            border: none;
+            cursor: pointer;
+            outline: 0;
+            transition: .2s;
+        }
+    
+        .btn-restart:active {
+            transform: scale(.9);
+        }
     }
 }
 
@@ -84,6 +138,24 @@ h3 {
     
         img {
             width: 66px;
+        }
+
+        .btn-restart {
+            text-align: center;
+            padding: .6em .8em .8em;
+            margin: 5%;
+            color: white;
+            background-color: #34bf49;
+            border-radius: 5px;
+            box-shadow: inset 0 -.2em rgba(0, 0, 0 .4);
+            border: none;
+            cursor: pointer;
+            outline: 0;
+            transition: .2s;
+        }
+    
+        .btn-restart:active {
+            transform: scale(.9);
         }
     }
     
@@ -104,6 +176,24 @@ h3 {
         img {
             width: 99px;
         }
+
+        .btn-restart {
+            text-align: center;
+            padding: .6em .8em .8em;
+            margin: 5%;
+            color: white;
+            background-color: #34bf49;
+            border-radius: 5px;
+            box-shadow: inset 0 -.2em rgba(0, 0, 0 .4);
+            border: none;
+            cursor: pointer;
+            outline: 0;
+            transition: .2s;
+        }
+    
+        .btn-restart:active {
+            transform: scale(.9);
+        }
     }
 }
 
@@ -121,6 +211,24 @@ h3 {
         img {
             width: 132px;
         }
+
+        .btn-restart {
+            text-align: center;
+            padding: .6em .8em .8em;
+            margin: 5%;
+            color: white;
+            background-color: #34bf49;
+            border-radius: 5px;
+            box-shadow: inset 0 -.2em rgba(0, 0, 0 .4);
+            border: none;
+            cursor: pointer;
+            outline: 0;
+            transition: .2s;
+        }
+    
+        .btn-restart:active {
+            transform: scale(.9);
+        }
     }
 }
 
@@ -136,6 +244,24 @@ h3 {
 
         img {
             width: 132px;
+        }
+
+        .btn-restart {
+            text-align: center;
+            padding: .6em .8em .8em;
+            margin: 5%;
+            color: white;
+            background-color: #34bf49;
+            border-radius: 5px;
+            box-shadow: inset 0 -.2em rgba(0, 0, 0 .4);
+            border: none;
+            cursor: pointer;
+            outline: 0;
+            transition: .2s;
+        }
+    
+        .btn-restart:active {
+            transform: scale(.9);
         }
     }
 }
