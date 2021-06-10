@@ -21,6 +21,15 @@ h3 {
     src: url(alarm.ttf);
 }
 
+img {
+    box-sizing: border-box;
+}
+
+img:hover {
+    transform: scale(1.25);
+    border-style:solid;
+    border-color: yellow;
+}
 
 @media  (min-width:320px) and (max-width:480px) {
     .grid {

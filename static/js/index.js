@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(event) {
     console.log("DOM fully loaded and parsed");
-    console.log(this)
     //card options
     const cardArray = [
         {
@@ -71,6 +70,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     ]
 
     cardArray.sort(() => 0.5 - Math.random())
+    console.log(cardArray)
 
     const grid = document.querySelector('.grid')
     const resultDisplay = document.querySelector('#result')
@@ -88,7 +88,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
     function createBoard() {
         for (let i = 0; i < cardArray.length; i++ ) {
             var card = document.createElement('img')
-            console.log(i)
             card.setAttribute('src', './static/img/board.png')
             card.setAttribute('data-id', i)
             card.addEventListener('click', flipCard)
@@ -99,7 +98,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     // check for matches
     function checkForMatch() {
-        console.log(this)
         var cards = document.querySelectorAll('img')
         const optionOneId = cardsChosenId[0]
         const optionTwoId = cardsChosenId[1]
@@ -126,7 +124,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     //flip you card
     function flipCard() {
-        console.log(this)
         var cardId = this.getAttribute('data-id')
         cardsChosen.push(cardArray[cardId].name)
         cardsChosenId.push(cardId)
